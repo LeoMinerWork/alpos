@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sawarabi+Gothic&display=swap');
+
+body {
+    background-color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    z-index: 1000;
+    width: 100%;
+    top: 0px;
+    position: sticky;
+    height: 96px;
+    background-color: rgb(227, 234, 243);
+    box-shadow: 0px 0px 12px rgb(218, 223, 228);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#start {
+    width: 100%;
+    display: flex;
+    height: 720px;
+    background-color: rgb(243, 247, 253);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#start h1 {
+    font-family: 'Roboto';
+    font-size: 52px;
+    color: #2a3038;
+}
+
+#start h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 42px;
+    color: #424c58;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+#start button {
+    width: 212px;
+    height: 54px;
+    border: none;
+    position: relative;
+    top: 58px;
+    background: linear-gradient( -45deg ,#bfd0e6, #c2e2fc);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+#start button:hover {
+    transition: 0.4s ease-in-out;
+    box-shadow: 0px 0px 32px #bfd0e6;
+}
+
+#start img {
+    position: relative;
+    width: 178px;
+    height: 178px;
+    bottom: 54px;
+}
+
+nav button {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    margin-right: 18px;
+    background: transparent;
+    transition: all 0.3s;
+    align-items: center;
+    justify-content: center;
+}
+
+nav button:hover {
+    background-color: rgb(213, 220, 230);
+    box-shadow: 0px 0px 8px rgb(213, 220, 230);
+}
+
+nav button svg {
+    width: 24px;
+    height: 24px;
+    position: static;
+}
+
+nav svg {
+    width: 58px;
+    position: absolute;
+    left: 26px;
+}
+
+#mx-menu-items {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: rgb(243, 247, 253);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 48px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+#middle-block-section h1 {
+    font-family: 'Roboto';
+    text-align: center;
+    color: #2a3038;
+    font-size: 36px;
+
+}
+
+#middle-block-section {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mx-menu-items div {
+    min-height: 326px;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: #e8f0fa;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 256px;
+    margin-bottom: 4px;
+    max-width: 256px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: calc(50% - 2em);
+    margin: 1em;
+    border-radius: 10px;
+}
+
+#mx-menu-items svg {
+    width: 64px;
+    height: 64px;
+}
+
+#mx-menu-items h1 {
+    font-size: 32px;
+    font-family: 'Roboto';
+    margin-top: 42px;
+    color: #3a424d;
+}
+
+#mx-menu-lightweight svg {
+    color: #a89cc8;
+}
+
+#mx-menu-beatiful svg {
+    color: #efa8b0;
+}
+
+#mx-menu-easy svg {
+    color: #8cc9f0
+}
+
+#mx-menu-items h2 {
+    margin-top: 8px;
+    font-size: 22px;
+    font-family: 'Roboto';
+    color: #424c58;
+}
+
+#editions {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+#editions div {
+    width: 100%;
+    height: 512px;
+    flex-direction: column;
+}
+
+.nightly {
+    background-color: #121418;
+}
+#editions div svg {
+    position: relative;
+    top: 58px;
+    width: 96px;
+    height: 96px;
+}
+
+.testing h1 {
+    position: relative;
+    top: 128px;
+    color: #181a1f;
+    font-family: 'Roboto';
+    font-size: 32px;
+}
+.nightly h2 {
+    position: relative;
+    color: #262a30;
+    font-family: 'Roboto';
+    font-size: 24px;
+    top: 156px;
+}
+
+#merger-editions {
+    width: 100%;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #121418;
+    font-family: 'Roboto';
+}
+
+#merger-editions h1 {
+    color: #121418;
+    font-family: 'Roboto';
+    font-size: 32px;
+}
+
+#merger-editions:hover + #nav {
+    background-color: #121418;
+}
+
+.testing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testing svg {
+    background-color:linear-gradient(#FFB877, #FF8B66);
+    position: relative;
+    top: 58px;
+    width: 96px;
+    height: 96px;
+}
